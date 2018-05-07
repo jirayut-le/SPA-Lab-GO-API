@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: go-restapi-app
-          image: 'gcr.io/rest-api-go-203406/go_restapo:v1'
+          image: 'gcr.io/rest-api-go-203406/go_restapo'
           imagePullPolicy: Always
           ports:
             - name: http-server

@@ -9,4 +9,4 @@ RUN go install .
 
 EXPOSE 8000
 
-CMD ["/go/bin/go_restapi"]
+CMD ["/go/bin/rest"]
